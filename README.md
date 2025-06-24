@@ -20,7 +20,7 @@
 
 <h2>🛠️ <u>MySQL Setup</u></h2>
 
-<p><strong>📌 Run the following commands inside your MySQL terminal:</strong></p>
+<p><strong>📌 Run the following commands inside your MySQL workbench:</strong></p>
 
 <pre><code style="background-color:#f4f4f4">
 CREATE DATABASE testdb;
