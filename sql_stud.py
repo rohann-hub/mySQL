@@ -17,10 +17,10 @@
 import mysql.connector
 
 conn = mysql.connector.connect(
-    host = "127.0.0.1",
-    user = "root",
-    password ="Rupjit@2811",
-    database ="testdb"
+    host = "local host",
+    user = "root name or username ",
+    password ="your Mysql password",
+    database ="Data base name"
 )
 
 cursor = conn.cursor()
@@ -44,4 +44,5 @@ for _ in range(n):
 
 conn.commit()
 cursor.close()
+
 conn.close()
